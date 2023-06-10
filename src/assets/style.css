@@ -5,6 +5,7 @@ body {
     justify-content: center;
     background-color: #ededed;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 650px;
 }
 h1 {
     font-size: 100px;
