@@ -1,0 +1,78 @@
+body {
+    margin : 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #ededed;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+#app {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.body-app {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#color-id {
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.choices button {
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    background-color: rgb(182, 136, 189);
+    border: 0;
+    border-radius: 4px;
+    color: #ffff;
+    cursor: pointer;
+}
+.choices button:hover {
+    background-color: rgb(192, 157, 198);
+}
+
+footer {
+    margin-top: 35px;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(65, 63, 63);
+    margin-left:70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+footer img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
